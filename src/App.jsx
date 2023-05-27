@@ -52,35 +52,39 @@ function App() {
       {/* projects */}
       <div className="projects" id="projects">
         <h2>Projects</h2>
-        <div className="project-card">
-          <div className="project-card-img">
-            <img src={colmarAcademy} alt="Colmar Academy" />
+        <div className="project-container">
+          {/* <div className="project-card">
+            <div className="project-card-img">
+              <img src={colmarAcademy} alt="Colmar Academy" />
+            </div>
+            <h4>Title</h4>
+            <p>contents</p>
+            <a>
+              <button> Repository </button>
+            </a>
           </div>
-          <h4>Title</h4>
-          <p>contents</p>
-          <a>
-            <button> Repository </button>
-          </a>
-        </div>
-        <div className="project-card">
-          <div className="project-card-img">
-            <img src={findMyHat} alt="Find My Hat" />
+          <div className="project-card">
+            <div className="project-card-img">
+              <img src={findMyHat} alt="Find My Hat" />
+            </div>
+            <h4>Title</h4>
+            <p>contents</p>
+            <a>
+              <button> Repository </button>
+            </a>
+          </div> */}
+          <div className="project-card">
+            <img src={exergram} alt="Exergram" id="exergram" />
+            <div className="project-card-container">
+              <div className="project-card-info">
+                <h4>Title</h4>
+                <p>contents</p>
+                <a>
+                  <button> Repository </button>
+                </a>
+              </div>
+            </div>
           </div>
-          <h4>Title</h4>
-          <p>contents</p>
-          <a>
-            <button> Repository </button>
-          </a>
-        </div>
-        <div className="project-card">
-          <div className="project-card-img">
-            <img src={exergram} alt="Exergram" />
-          </div>
-          <h4>Title</h4>
-          <p>contents</p>
-          <a>
-            <button> Repository </button>
-          </a>
         </div>
       </div>
 
