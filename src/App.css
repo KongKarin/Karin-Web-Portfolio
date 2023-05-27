@@ -138,12 +138,14 @@ html {
 
 .project-card {
   position: relative;
-  width: 50%;
+  width: 25%;
 }
 
 #exergram {
   width: 100%;
-  height: auto;
+  height: 326px;
+  object-fit: cover;
+  object-position: 100% 0;
 }
 
 .project-card-container {
@@ -175,4 +177,13 @@ html {
   display: flex;
   flex-direction: column;
   align-content: flex-start;
+  width: auto;
+}
+
+.project-card-info p {
+  font-size: 16px;
+}
+
+.card-btn {
+  font-family: sans-serif;
 }

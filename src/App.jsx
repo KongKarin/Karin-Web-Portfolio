@@ -3,7 +3,7 @@ import './App.css';
 import myImgae from './assets/Krn.jpg';
 import colmarAcademy from './assets/colmarAcademy.jpg';
 import findMyHat from './assets/findMyHat.jpg';
-import exergram from './assets/Exergram.jpg';
+import exergram from './assets/Exergram.png';
 
 function App() {
   return (
@@ -77,10 +77,13 @@ function App() {
             <img src={exergram} alt="Exergram" id="exergram" />
             <div className="project-card-container">
               <div className="project-card-info">
-                <h4>Title</h4>
-                <p>contents</p>
+                <h4>EXERGRAM</h4>
+                <p>
+                  Exercise Tracking Web Application (React, Express, NodeJS,
+                  MongoDB)
+                </p>
                 <a>
-                  <button> Repository </button>
+                  <button className="card-btn"> Repository </button>
                 </a>
               </div>
             </div>
