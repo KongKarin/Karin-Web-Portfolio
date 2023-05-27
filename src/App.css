@@ -103,13 +103,14 @@ html {
   width: 50%;
   display: flex;
   justify-content: center;
-  z-index: 0;
+  
 }
 
 .my-image img{
   width: 455px;
   height: 682px;
   filter: grayscale(100%);
+  z-index: 0;
 }
 
 .my-image img:hover{

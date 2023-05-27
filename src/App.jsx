@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import './App.css';
 import myImgae from './assets/Krn.jpg';
+import colmarAcademy from './assets/colmarAcademy.jpg';
+import findMyHat from './assets/findMyHat.jpg';
+import exergram from './assets/exergram.jpg';
 
 function App() {
   return (
@@ -27,7 +30,9 @@ function App() {
       {/* about */}
       <div className="about" id="about">
         <div className="info">
-          <h1 id="name">Karin <br/> Naprang</h1>
+          <h1 id="name">
+            Karin <br /> Naprang
+          </h1>
           <h1 id="position">Software Developer</h1>
           <p>
             As the university registrar, I resolved data and software issues,
@@ -49,7 +54,7 @@ function App() {
         <h2>Projects</h2>
         <div className="project-card">
           <div className="project-card-img">
-            <img src="" alt="" />
+            <img src={colmarAcademy} alt="Colmar Academy" />
           </div>
           <h4>Title</h4>
           <p>contents</p>
@@ -59,7 +64,7 @@ function App() {
         </div>
         <div className="project-card">
           <div className="project-card-img">
-            <img src="" alt="" />
+            <img src={findMyHat} alt="Find My Hat" />
           </div>
           <h4>Title</h4>
           <p>contents</p>
@@ -69,7 +74,7 @@ function App() {
         </div>
         <div className="project-card">
           <div className="project-card-img">
-            <img src="" alt="" />
+            <img src={exergram} alt="Exergram" />
           </div>
           <h4>Title</h4>
           <p>contents</p>
