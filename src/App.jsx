@@ -3,7 +3,7 @@ import './App.css';
 import myImgae from './assets/Krn.jpg';
 import colmarAcademy from './assets/colmarAcademy.jpg';
 import findMyHat from './assets/findMyHat.jpg';
-import exergram from './assets/exergram.jpg';
+import exergram from './assets/Exergram.jpg';
 
 function App() {
   return (
