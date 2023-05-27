@@ -31,7 +31,7 @@ function App() {
       <div className="about" id="about">
         <div className="info">
           <h1 id="name">
-            Karin <br /> Naprang
+            Karin <br /> Napranggg
           </h1>
           <h1 id="position">Software Developer</h1>
           <p>
