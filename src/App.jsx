@@ -49,7 +49,10 @@ function App() {
             experience solidified my goal of becoming a proficient software
             developer.
           </p>
-          <a href="#" target="_blank">
+          <a
+            href="https://drive.google.com/file/d/1N1Aug9h1flXmvRl1CwZqHmz7iX9a5ZCo/view?usp=sharing"
+            target="_blank"
+          >
             <button id="resume-btn">Resume</button>
           </a>
         </div>
@@ -184,22 +187,20 @@ function App() {
       <div className="footer" id="contact">
         <h1>Contact</h1>
         <div className="footer-icon">
-          <a href="#" target="_blank">
+          <a
+            href="https://drive.google.com/file/d/1N1Aug9h1flXmvRl1CwZqHmz7iX9a5ZCo/view?usp=sharing"
+            target="_blank"
+          >
             <img src={resume} alt="resume" />
           </a>
-          <a href="karin.npng@gmail.com" target="_blank">
+          <a href="mailto:karin.npng@gmail.com" target="_blank">
             <img src={mail} alt="email" />
           </a>
-          <a href="www.linkedin.com/in/karin-naprang" target="_blank">
+          <a href="https://www.linkedin.com/in/karin-naprang" target="_blank">
             <img src={linkedin} alt="linkedin" />
           </a>
-          <a href="github.com/KongKarin" target="_blank">
-            <img
-              src={github}
-              alt="github"
-              href="github.com/KongKarin"
-              target="_blank"
-            />
+          <a href="https://github.com/KongKarin" target="_blank">
+            <img src={github} alt="github" />
           </a>
         </div>
       </div>
