@@ -1,12 +1,12 @@
-import CerHtml from '../assets/certificates/HTML.jpg';
-import CerCss from '../assets/certificates/CSS.jpg';
-import CerM1 from '../assets/certificates/MongoDBDatabase.jpg';
-import CerM2 from '../assets/certificates/MongoDBAtlas.jpg';
-import CerM3 from '../assets/certificates/MongoDBDocModel.jpg';
-import CerM4 from '../assets/certificates/MongoDBAggregation.jpg';
-import CerM5 from '../assets/certificates/MongoDBCRUD1.jpg';
-import CerM6 from '../assets/certificates/MongoDBCRUD2.jpg';
-import CerM7 from '../assets/certificates/MongoDBCRUD3.jpg';
+import CerHtml from '../assets/certificates/HTML.svg';
+import CerCss from '../assets/certificates/CSS.svg';
+import CerM1 from '../assets/certificates/MongoDBDatabase.svg';
+import CerM2 from '../assets/certificates/MongoDBAtlas.svg';
+import CerM3 from '../assets/certificates/MongoDBDocModel.svg';
+import CerM4 from '../assets/certificates/MongoDBAggregation.svg';
+import CerM5 from '../assets/certificates/MongoDBCRUD1.svg';
+import CerM6 from '../assets/certificates/MongoDBCRUD2.svg';
+import CerM7 from '../assets/certificates/MongoDBCRUD3.svg';
 
 import './Carousel.css';
 
