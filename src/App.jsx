@@ -4,6 +4,9 @@ import myImgae from './assets/Krn.jpg';
 import colmarAcademy from './assets/colmarAcademy.jpg';
 import findMyHat from './assets/findMyHat.jpg';
 import exergram from './assets/Exergram.png';
+import IBSC from './assets/IBSC.svg';
+import Generation from './assets/IBSC.svg';
+import MCU from './assets/MCU.svg';
 
 function App() {
   return (
@@ -63,15 +66,15 @@ function App() {
                   MongoDB)
                 </p>
                 <div className="project-all-btn">
-                <a href="https://exergram.vercel.app" target="_blank">
-                  <button className="card-btn"> Demo </button>
-                </a>
-                <a
-                  href="https://github.com/ryosantouchh/exergram-frontend-c1"
-                  target="_blank"
-                >
-                  <button className="card-btn"> Repository </button>
-                </a>
+                  <a href="https://exergram.vercel.app" target="_blank">
+                    <button className="card-btn"> Demo </button>
+                  </a>
+                  <a
+                    href="https://github.com/ryosantouchh/exergram-frontend-c1"
+                    target="_blank"
+                  >
+                    <button className="card-btn"> Repository </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -85,7 +88,7 @@ function App() {
 
         <h4>Work</h4>
         <div className="ibsc">
-          <img src="#" alt="International Buddhist Studies College" />
+          <img src={IBSC} alt="International Buddhist Studies College" />
           <div className="ibsc-info">
             <h3>Registrar @International Buddhist Studies College </h3>
             <h3>2020 - 2022</h3>
@@ -113,7 +116,7 @@ function App() {
 
         <h4>Education</h4>
         <div className="generation">
-          <img src="#" alt="generation Thailand" />
+          <img src={Generation} alt="generation Thailand" />
           <div className="generation-info">
             <h3>Fullstack Developer Learner @Generation Thailand</h3>
             <h3>February - May 2023</h3>
@@ -134,7 +137,7 @@ function App() {
           </div>
         </div>
         <div className="mcu">
-          <img src="#" alt="Mahachulalomgkornrajavidayalaya University" />
+          <img src={MCU} alt="Mahachulalomgkornrajavidayalaya University" />
           <div className="mcu-info">
             <h3>
               Bachelor of Arts (Teaching English) <br />
