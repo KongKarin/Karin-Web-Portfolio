@@ -138,12 +138,12 @@ html {
 
 .project-card {
   position: relative;
-  width: 25%;
+  width: 50%;
 }
 
 #exergram {
   width: 100%;
-  height: 326px;
+  height: 450px;
   object-fit: cover;
   object-position: 100% 0;
 }
@@ -171,19 +171,51 @@ html {
   position: absolute;
   overflow: hidden;
   top: 50%;
-  left: 15%;
+  left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   align-content: flex-start;
-  width: auto;
+  width: 80%;
+  margin: 0;
+  padding: 0;
 }
 
 .project-card-info p {
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 200;
+  margin: 0.5;
+}
+.project-card-info h4 {
+  margin: 0;
 }
 
 .card-btn {
   font-family: sans-serif;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.project-all-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.project-all-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.experiences {
+  padding-top: 100px;
+}
+.experiences h2 {
+  text-transform: uppercase;
+}
+
+.experiences h4 {
+  padding-top: 50px;
+  text-transform: uppercase;
 }

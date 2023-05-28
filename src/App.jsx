@@ -53,26 +53,6 @@ function App() {
       <div className="projects" id="projects">
         <h2>Projects</h2>
         <div className="project-container">
-          {/* <div className="project-card">
-            <div className="project-card-img">
-              <img src={colmarAcademy} alt="Colmar Academy" />
-            </div>
-            <h4>Title</h4>
-            <p>contents</p>
-            <a>
-              <button> Repository </button>
-            </a>
-          </div>
-          <div className="project-card">
-            <div className="project-card-img">
-              <img src={findMyHat} alt="Find My Hat" />
-            </div>
-            <h4>Title</h4>
-            <p>contents</p>
-            <a>
-              <button> Repository </button>
-            </a>
-          </div> */}
           <div className="project-card">
             <img src={exergram} alt="Exergram" id="exergram" />
             <div className="project-card-container">
@@ -82,9 +62,17 @@ function App() {
                   Exercise Tracking Web Application (React, Express, NodeJS,
                   MongoDB)
                 </p>
-                <a>
+                <div className="project-all-btn">
+                <a href="https://exergram.vercel.app" target="_blank">
+                  <button className="card-btn"> Demo </button>
+                </a>
+                <a
+                  href="https://github.com/ryosantouchh/exergram-frontend-c1"
+                  target="_blank"
+                >
                   <button className="card-btn"> Repository </button>
                 </a>
+                </div>
               </div>
             </div>
           </div>
