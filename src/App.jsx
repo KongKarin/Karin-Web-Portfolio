@@ -5,8 +5,9 @@ import colmarAcademy from './assets/colmarAcademy.jpg';
 import findMyHat from './assets/findMyHat.jpg';
 import exergram from './assets/Exergram.png';
 import IBSC from './assets/IBSC.svg';
-import Generation from './assets/IBSC.svg';
+import Generation from './assets/Generation.svg';
 import MCU from './assets/MCU.svg';
+import Certi from './component/Carousel.jsx';
 
 function App() {
   return (
@@ -88,7 +89,9 @@ function App() {
 
         <h4>Work</h4>
         <div className="ibsc">
-          <img src={IBSC} alt="International Buddhist Studies College" />
+          <div className="logos">
+            <img src={IBSC} alt="International Buddhist Studies College" />
+          </div>
           <div className="ibsc-info">
             <h3>Registrar @International Buddhist Studies College </h3>
             <h3>2020 - 2022</h3>
@@ -116,7 +119,9 @@ function App() {
 
         <h4>Education</h4>
         <div className="generation">
-          <img src={Generation} alt="generation Thailand" />
+          <div className="logos">
+            <img src={Generation} alt="generation Thailand" />
+          </div>
           <div className="generation-info">
             <h3>Fullstack Developer Learner @Generation Thailand</h3>
             <h3>February - May 2023</h3>
@@ -137,7 +142,9 @@ function App() {
           </div>
         </div>
         <div className="mcu">
-          <img src={MCU} alt="Mahachulalomgkornrajavidayalaya University" />
+          <div className="logos">
+            <img src={MCU} alt="Mahachulalomgkornrajavidayalaya University" />
+          </div>
           <div className="mcu-info">
             <h3>
               Bachelor of Arts (Teaching English) <br />
@@ -147,7 +154,7 @@ function App() {
             <ul>
               <li>
                 Internship as a teacher at Anurajaprasit School, Nonthaburi, for
-                an academic year and taught students in grade 8.
+                an academic year and taught students in grade 8 (2019).
               </li>
               <li>
                 Volunteer staff The 13th-15th United Nations Day of Vesak
@@ -161,7 +168,9 @@ function App() {
       {/* certificates */}
       <div className="certificates">
         <h4>Certificates</h4>
-        <div className="slides">Couroucel</div>
+        <div className="slides">
+          <Certi />
+        </div>
       </div>
 
       {/* footer */}

@@ -219,3 +219,30 @@ html {
   padding-top: 50px;
   text-transform: uppercase;
 }
+
+.logos {
+  width: 300px;
+  /* display: block; */
+  display: inline-flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.ibsc,
+.generation,
+.mcu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.certificates h4 {
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+
+.slides {
+  padding-top: 1px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
