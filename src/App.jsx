@@ -7,7 +7,7 @@ import exergram from './assets/Exergram.png';
 import IBSC from './assets/IBSC.svg';
 import Generation from './assets/Generation.svg';
 import MCU from './assets/MCU.svg';
-import Certi from './component/Carousel.jsx';
+import Certificates from './component/Carousel.jsx';
 
 function App() {
   return (
@@ -169,7 +169,7 @@ function App() {
       <div className="certificates">
         <h4>Certificates</h4>
         <div className="slides">
-          <Certi />
+          <Certificates />
         </div>
       </div>
 

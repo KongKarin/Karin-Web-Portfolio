@@ -1,6 +1,13 @@
-import Carousel from 'react-bootstrap/Carousel';
-import CerHtml from './assets/certificates/HTML.jpg';
-import CerCss from './assets/certificates/CSS.jpg';
+import CerHtml from '../assets/certificates/HTML.jpg';
+import CerCss from '../assets/certificates/CSS.jpg';
+import CerM1 from '../assets/certificates/MongoDBDatabase.jpg';
+import CerM2 from '../assets/certificates/MongoDBAtlas.jpg';
+import CerM3 from '../assets/certificates/MongoDBDocModel.jpg';
+import CerM4 from '../assets/certificates/MongoDBAggregation.jpg';
+import CerM5 from '../assets/certificates/MongoDBCRUD1.jpg';
+import CerM6 from '../assets/certificates/MongoDBCRUD2.jpg';
+import CerM7 from '../assets/certificates/MongoDBCRUD3.jpg';
+
 import './Carousel.css';
 
 function Certi() {
@@ -34,13 +41,31 @@ function Certi() {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="..." className="d-block w-100" alt="..." />
+          <img src={CerHtml} className="d-block w-100" alt="HTML" />
         </div>
         <div className="carousel-item">
-          <img src="..." className="d-block w-100" alt="..." />
+          <img src={CerCss} className="d-block w-100" alt="CSS" />
         </div>
         <div className="carousel-item">
-          <img src="..." className="d-block w-100" alt="..." />
+          <img src={CerM1} className="d-block w-100" alt="MongoDB1" />
+        </div>
+        <div className="carousel-item">
+          <img src={CerM2} className="d-block w-100" alt="MongoDB2" />
+        </div>
+        <div className="carousel-item">
+          <img src={CerM3} className="d-block w-100" alt="MongoDB3" />
+        </div>
+        <div className="carousel-item">
+          <img src={CerM4} className="d-block w-100" alt="MongoDB4" />
+        </div>
+        <div className="carousel-item">
+          <img src={CerM5} className="d-block w-100" alt="MongoDB5" />
+        </div>
+        <div className="carousel-item">
+          <img src={CerM6} className="d-block w-100" alt="MongoDB6" />
+        </div>
+        <div className="carousel-item">
+          <img src={CerM7} className="d-block w-100" alt="MongoDB7" />
         </div>
       </div>
       <button
