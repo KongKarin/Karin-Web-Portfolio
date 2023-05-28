@@ -6,8 +6,11 @@ import exergram from './assets/Exergram.png';
 import IBSC from './assets/IBSC.svg';
 import Generation from './assets/Generation.svg';
 import MCU from './assets/MCU.svg';
+import resume from './assets/icons/file.svg';
+import mail from './assets/icons/mail.svg';
+import linkedin from './assets/icons/linkedin.svg';
+import github from './assets/icons/github.svg';
 // import ControlledCarousel from './component/Carousels.jsx';
-import ControlledCarousel from './component/Carousels.jsx';
 
 function App() {
   return (
@@ -35,7 +38,7 @@ function App() {
       <div className="about" id="about">
         <div className="info">
           <h1 id="name">
-            Karin <br /> Napranggg
+            Karin <br /> Naprang
           </h1>
           <h1 id="position">Software Developer</h1>
           <p>
@@ -46,6 +49,9 @@ function App() {
             experience solidified my goal of becoming a proficient software
             developer.
           </p>
+          <a href="#" target="_blank">
+            <button id="resume-btn">Resume</button>
+          </a>
         </div>
 
         <div className="my-image">
@@ -166,20 +172,36 @@ function App() {
       </div>
 
       {/* certificates */}
-      <div className="certificates">
+      {/* <div className="certificates">
         <h4>Certificates</h4>
+
         <div className="slides">
           <ControlledCarousel />
         </div>
-      </div>
+      </div> */}
 
       {/* footer */}
       <div className="footer" id="contact">
         <h1>Contact</h1>
-        <img src="" alt="resume" />
-        <img src="" alt="email" />
-        <img src="" alt="linkedin" />
-        <img src="" alt="github" />
+        <div className="footer-icon">
+          <a href="#" target="_blank">
+            <img src={resume} alt="resume" />
+          </a>
+          <a href="karin.npng@gmail.com" target="_blank">
+            <img src={mail} alt="email" />
+          </a>
+          <a href="www.linkedin.com/in/karin-naprang" target="_blank">
+            <img src={linkedin} alt="linkedin" />
+          </a>
+          <a href="github.com/KongKarin" target="_blank">
+            <img
+              src={github}
+              alt="github"
+              href="github.com/KongKarin"
+              target="_blank"
+            />
+          </a>
+        </div>
       </div>
     </>
   );

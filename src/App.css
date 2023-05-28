@@ -114,6 +114,15 @@ html {
   filter: grayscale(0%);
 }
 
+#resume-btn {
+  margin: 10px 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 20px;
+}
+
 .projects {
   padding-top: 100px;
   /* background-color: #bdbdbd; */
@@ -196,11 +205,7 @@ html {
   margin: 10px 20px;
   padding: 10px 20px;
   border-radius: 20px;
-}
-
-.project-all-btn {
-  display: flex;
-  justify-content: center;
+  cursor: pointer;
 }
 
 .project-all-btn {
@@ -210,6 +215,7 @@ html {
 
 .experiences {
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 .experiences h2 {
   text-transform: uppercase;
@@ -242,7 +248,20 @@ html {
 }
 
 .slides {
-  padding-top: 1px;
+  padding-top: 50px;
 }
 
-/* ////////////////////////////////////////////////////////////////////////////// */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+}
