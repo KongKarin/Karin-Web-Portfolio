@@ -1,8 +1,7 @@
-import { useState } from 'react';
 import './App.css';
 import myImgae from './assets/Krn.jpg';
-import colmarAcademy from './assets/colmarAcademy.jpg';
-import findMyHat from './assets/findMyHat.jpg';
+// import colmarAcademy from './assets/colmarAcademy.jpg';
+// import findMyHat from './assets/findMyHat.jpg';
 import exergram from './assets/Exergram.png';
 import IBSC from './assets/IBSC.svg';
 import Generation from './assets/Generation.svg';

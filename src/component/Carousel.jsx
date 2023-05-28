@@ -10,7 +10,7 @@ import CerM7 from '../assets/certificates/MongoDBCRUD3.jpg';
 
 import './Carousel.css';
 
-function Certi() {
+function Certificates() {
   return (
     <div
       id="carouselExampleIndicators"
@@ -90,4 +90,4 @@ function Certi() {
   );
 }
 
-export default Certi;
+export default Certificates;
