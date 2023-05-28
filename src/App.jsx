@@ -6,7 +6,8 @@ import exergram from './assets/Exergram.png';
 import IBSC from './assets/IBSC.svg';
 import Generation from './assets/Generation.svg';
 import MCU from './assets/MCU.svg';
-import Certificates from './component/Carousel.jsx';
+// import ControlledCarousel from './component/Carousels.jsx';
+import ControlledCarousel from './component/Carousels.jsx';
 
 function App() {
   return (
@@ -168,7 +169,7 @@ function App() {
       <div className="certificates">
         <h4>Certificates</h4>
         <div className="slides">
-          <Certificates />
+          <ControlledCarousel />
         </div>
       </div>
 
