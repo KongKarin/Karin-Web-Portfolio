@@ -50,7 +50,7 @@ function App() {
             developer.
           </p>
           <a
-            href="https://drive.google.com/file/d/1N1Aug9h1flXmvRl1CwZqHmz7iX9a5ZCo/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Kfwv4DYZ34osaAA0qf4eCCV2v5nyWHG5/view?usp=sharing"
             target="_blank"
           >
             <button id="resume-btn">Resume</button>
@@ -188,7 +188,7 @@ function App() {
         <h1>Contact</h1>
         <div className="footer-icon">
           <a
-            href="https://drive.google.com/file/d/1N1Aug9h1flXmvRl1CwZqHmz7iX9a5ZCo/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Kfwv4DYZ34osaAA0qf4eCCV2v5nyWHG5/view?usp=sharing"
             target="_blank"
           >
             <img src={resume} alt="resume" />
