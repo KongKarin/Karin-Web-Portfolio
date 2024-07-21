@@ -49,57 +49,115 @@ export default function MyPort() {
           </p>
 
           <div className="flex items-center gap-8">
-            <button className="bg-white text-base-bg my-3 py-3 px-6 w-36 font-light text-base lg:text-xl rounded-md">
-              <a
-                href="https://drive.google.com/file/d/1cbIhxBKdEXml-56A4s1be8G_LAIaP7zk/view?usp=drive_link"
-                target="_blank"
-              >
+            <a
+              href="https://drive.google.com/file/d/1cbIhxBKdEXml-56A4s1be8G_LAIaP7zk/view?usp=drive_link"
+              target="_blank"
+            >
+              <button className="bg-white text-base-bg my-3 py-3 px-6 w-36 font-light text-base lg:text-xl rounded-md">
                 Resume
-              </a>
-            </button>
+              </button>
+            </a>
             <div className="flex justify-around gap-x-4 ">
               <Link
                 href="https://www.linkedin.com/in/karin-naprang"
                 target="_blank"
                 className="max-w-40"
               >
-                <Image src={linkedin} alt="linkedin" className="w-[26px]" />
+                <Image
+                  src={linkedin}
+                  alt="linkedin"
+                  className="w-[26px]"
+                  draggable={false}
+                />
               </Link>
               <Link
                 href="https://github.com/KongKarin"
                 target="_blank"
                 className="max-w-40"
               >
-                <Image src={github} alt="github" className="w-[28px]" />
+                <Image
+                  src={github}
+                  alt="github"
+                  className="w-[28px]"
+                  draggable={false}
+                />
               </Link>
             </div>
           </div>
 
           <div className="grid grid-rows-2 lg:grid-rows-1 grid-flow-col justify-start items-center gap-4 mx-auto">
-            <Image src={htmlLogo} alt="html" className="w-[32px]" />
-            <Image src={cssLogo} alt="css" className="w-[32px]" />
-            <Image src={jsLogo} alt="javascript" className="w-[32px] rounded" />
-            <Image src={tsLogo} alt="typescript" className="w-[32px] rounded" />
-            <Image src={reactLogo} alt="react" className="w-[32px]" />
+            <Image
+              src={htmlLogo}
+              alt="html"
+              className="w-[32px]"
+              draggable={false}
+            />
+            <Image
+              src={cssLogo}
+              alt="css"
+              className="w-[32px]"
+              draggable={false}
+            />
+            <Image
+              src={jsLogo}
+              alt="javascript"
+              className="w-[32px] rounded"
+              draggable={false}
+            />
+            <Image
+              src={tsLogo}
+              alt="typescript"
+              className="w-[32px] rounded"
+              draggable={false}
+            />
+            <Image
+              src={reactLogo}
+              alt="react"
+              className="w-[32px]"
+              draggable={false}
+            />
             <Image
               src={nextLogo}
               alt="nextjs"
               className="w-[32px] bg-white rounded-full p-[0.5px]"
+              draggable={false}
             />
-            <Image src={tailwindLogo} alt="tailwindcss" className="w-[32px] " />
-            <Image src={btLogo} alt="bootstrap" className="w-[32px] " />
+            <Image
+              src={tailwindLogo}
+              alt="tailwindcss"
+              className="w-[32px]"
+              draggable={false}
+            />
+            <Image
+              src={btLogo}
+              alt="bootstrap"
+              className="w-[32px]"
+              draggable={false}
+            />
             <Image
               src={nodeLogo}
               alt="nodejs"
               className="w-[32px] bg-white p-1 rounded"
+              draggable={false}
             />
             <Image
               src={epLogo}
               alt="express"
               className="w-[32px] bg-white p-1 rounded"
+              draggable={false}
             />
-            <Image src={sqlLogo} alt="mysql" className="w-[32px] " />
-            <Image src={mgLogo} alt="mongodb" className="w-[32px] " />
+            <Image
+              src={sqlLogo}
+              alt="mysql"
+              className="w-[32px] "
+              draggable={false}
+            />
+            <Image
+              src={mgLogo}
+              alt="mongodb"
+              className="w-[32px] "
+              draggable={false}
+            />
           </div>
         </div>
 
@@ -121,6 +179,7 @@ export default function MyPort() {
               src={theProperMu}
               alt="The-Beyond-Estates"
               className="w-full h-[400px] object-cover object-right-top"
+              draggable={false}
             />
             <div className="absolute inset-x-0 bottom-0 bg-base-bg overflow-hidden w-full h-0 transform ease-in-out duration-500 flex justify-start group-hover:h-1/2">
               <div className="whitespace-nowrap absolute overflow-hidden top-1/2 left-1/2  translate-x-[-50%] translate-y-[-50%] flex flex-col items-start ">
@@ -144,6 +203,7 @@ export default function MyPort() {
               src={theBeyond}
               alt="The-Beyond-Estates"
               className="w-full h-[400px] object-cover object-right-top"
+              draggable={false}
             />
             <div className="absolute inset-x-0 bottom-0 bg-base-bg overflow-hidden w-full h-0 transform ease-in-out duration-500 flex justify-start group-hover:h-1/2">
               <div className="whitespace-nowrap absolute overflow-hidden top-1/2 left-1/2  translate-x-[-50%] translate-y-[-50%] flex flex-col items-start ">
@@ -166,6 +226,7 @@ export default function MyPort() {
               src={exergram}
               alt="Exergram"
               className="w-full h-[400px] object-cover object-right-top"
+              draggable={false}
             />
             <div className="absolute inset-x-0 bottom-0 bg-base-bg overflow-hidden w-full h-0 transform ease-in-out duration-500 flex justify-start group-hover:h-1/2">
               <div className="whitespace-nowrap absolute overflow-hidden top-1/2 left-1/2  translate-x-[-50%] translate-y-[-50%] flex flex-col items-start ">
@@ -200,22 +261,23 @@ export default function MyPort() {
       <div className="py-[100px] break-words" id="experiences">
         <h2 className="uppercase text-3xl">Experiences</h2>
 
-        <h4 className="uppercase text-2xl pt-[50px] underline">Work</h4>
+        <h3 className="uppercase text-2xl pt-[50px] underline">Work</h3>
         <div className="flex flex-col gap-y-10 lg:flex-row items-center mt-10">
           <div className="w-1/3 inline-flex justify-center items-center">
             <Image
               src={theBeyondLogo}
               alt="The Beyond Estates Co. Ltd."
               className="w-full lg:w-1/2 bg-white rounded-md"
+              draggable={false}
             />
           </div>
           <div className="w-full lg:w-2/3 ">
-            <h3 className="text-2xl font-semibold">
+            <h4 className="text-2xl font-semibold">
               Full Stack Developer (Junior) @The Beyond Estates Co. Ltd.{" "}
-            </h3>
-            <h3 className="text-lg font-medium my-2">
+            </h4>
+            <h4 className="text-lg font-medium my-2">
               October 2023 - July 2024
-            </h3>
+            </h4>
             <ul className="list-disc indent-2 pl-10 font-light leading-relaxed">
               <li>
                 Monitored student information systems and services for the
@@ -239,15 +301,19 @@ export default function MyPort() {
         </div>
         <div className="flex flex-col gap-y-10 lg:flex-row items-center mt-16 lg:mt-10">
           <div className="w-1/3 inline-flex justify-center items-center">
-            <Image src={IBSC} alt="International Buddhist Studies College" />
+            <Image
+              src={IBSC}
+              alt="International Buddhist Studies College"
+              draggable={false}
+            />
           </div>
           <div className="w-full lg:w-2/3">
-            <h3 className="text-2xl font-semibold">
+            <h4 className="text-2xl font-semibold">
               Registrar @International Buddhist Studies College{" "}
-            </h3>
-            <h3 className="text-lg font-medium my-2">
+            </h4>
+            <h4 className="text-lg font-medium my-2">
               November 2020 - February 2022
-            </h3>
+            </h4>
             <ul className="list-disc indent-2 pl-10 font-light leading-relaxed">
               <li>
                 Monitored student information systems and services for the
@@ -273,13 +339,17 @@ export default function MyPort() {
         <h4 className="uppercase text-2xl pt-[100px] underline">Education</h4>
         <div className="flex flex-col gap-y-10 lg:flex-row items-center mt-14 lg:mt-10">
           <div className="w-1/3 inline-flex justify-center items-center">
-            <Image src={Generation} alt="generation Thailand" />
+            <Image
+              src={Generation}
+              alt="generation Thailand"
+              draggable={false}
+            />
           </div>
           <div className="w-full lg:w-2/3">
-            <h3 className="text-2xl font-semibold">
+            <h4 className="text-2xl font-semibold">
               Fullstack Developer Learner @Generation Thailand
-            </h3>
-            <h3 className="text-lg font-medium my-2">February - May 2023</h3>
+            </h4>
+            <h4 className="text-lg font-medium my-2">February - May 2023</h4>
             <ul className="list-disc indent-2 pl-10 font-light leading-relaxed">
               <li>
                 Junior Software Developer (Fullstack Web Developer), 14 Weeks
@@ -298,14 +368,18 @@ export default function MyPort() {
         </div>
         <div className="flex flex-col gap-y-10 lg:flex-row items-center mt-16 lg:mt-10">
           <div className="w-1/3 inline-flex justify-center items-center">
-            <Image src={MCU} alt="Mahachulalomgkornrajavidayalaya University" />
+            <Image
+              src={MCU}
+              alt="Mahachulalomgkornrajavidayalaya University"
+              draggable={false}
+            />
           </div>
           <div className="w-full lg:w-2/3">
-            <h3 className="text-2xl font-semibold">
+            <h4 className="text-2xl font-semibold">
               Bachelor of Arts (Teaching English) <br />
               @Mahachulalomgkornrajavidayalaya University
-            </h3>
-            <h3 className="text-lg font-medium my-2">2015 - 2020</h3>
+            </h4>
+            <h4 className="text-lg font-medium my-2">2015 - 2020</h4>
             <ul className="list-disc indent-2 pl-10 font-light leading-relaxed">
               <li>
                 Internship as a teacher at Anurajaprasit School, Nonthaburi, for
@@ -332,28 +406,49 @@ export default function MyPort() {
             target="_blank"
             className="max-w-40"
           >
-            <Image src={resume} alt="resume" className="w-[32px]" />
+            <Image
+              src={resume}
+              alt="resume"
+              className="w-[32px]"
+              draggable={false}
+            />
           </Link>
           <Link
             href="mailto:karin.npng@gmail.com"
             target="_blank"
             className="max-w-40"
           >
-            <Image src={mail} alt="email" className="w-[40px]" />
+            <Image
+              src={mail}
+              alt="email"
+              className="w-[40px]"
+              draggable={false}
+            />
           </Link>
           <Link
             href="https://www.linkedin.com/in/karin-naprang"
             target="_blank"
             className="max-w-40"
+            draggable={false}
           >
-            <Image src={linkedin} alt="linkedin" className="w-[40px]" />
+            <Image
+              src={linkedin}
+              alt="linkedin"
+              className="w-[40px]"
+              draggable={false}
+            />
           </Link>
           <Link
             href="https://github.com/KongKarin"
             target="_blank"
             className="max-w-40"
           >
-            <Image src={github} alt="github" className="w-[40px]" />
+            <Image
+              src={github}
+              alt="github"
+              className="w-[40px]"
+              draggable={false}
+            />
           </Link>
         </div>
       </div>
