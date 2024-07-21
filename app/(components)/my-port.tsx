@@ -234,11 +234,11 @@ export default function MyPort() {
               draggable={false}
             />
             <div className="absolute inset-x-0 bottom-0 bg-base-bg overflow-hidden w-full h-0 transform ease-in-out duration-500 flex justify-start group-hover:h-1/2">
-              <div className="whitespace-nowrap absolute overflow-hidden top-1/2 left-1/2  translate-x-[-50%] translate-y-[-50%] flex flex-col items-start ">
-                <h3 className="m-0">EXERGRAM</h3>
-                <p className=" font-extralight text-sm m-[0.5]">
-                  Exercise Tracking Web Application (React, Express, NodeJS,
-                  MongoDB)
+              <div className="whitespace-nowrap absolute overflow-hidden top-1/2 left-1/2  translate-x-[-50%] translate-y-[-50%] flex flex-col items-start justify-center">
+                <h3 className="pl-10 lg:pl-0 m-0">EXERGRAM</h3>
+                <p className="pl-10 lg:pl-0 font-extralight text-sm m-[0.5] break-words">
+                  Exercise Tracking Web Application (React, Express,
+                  <br className="lg:hidden" /> NodeJS, MongoDB)
                 </p>
                 <div className="flex justify-center mx-auto mt-6">
                   <a href="https://exergram.vercel.app" target="_blank">

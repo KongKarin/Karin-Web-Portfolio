@@ -1,3 +1,3 @@
 # Karin Naprang Portfolio
 
-### FullStack Developer.
+### Full-Stack Developer
