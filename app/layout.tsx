@@ -12,11 +12,18 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Karin Naprang",
   description: "Karin Naprang - Web Developer",
-  // alternates: {
-  //   canonical: `/`,
-  // },
+  metadataBase: new URL("https://karin-web-portfolio.vercel.app"),
+  alternates: {
+    canonical: `/`,
+  },
   twitter: {
     card: "summary_large_image",
+  },
+  openGraph: {
+    // url: "https://karin-web-portfolio.vercel.app/api/og",
+    type: "website",
+    title: "Karin Naprang",
+    description: "Karin Naprang - Web Developer",
   },
 };
 
@@ -27,12 +34,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* <head>
-        <meta
-          property="og:image"
-          content="https://karin-web-portfolio.vercel.app/api/og"
-        />
-      </head> */}
       <body className={poppins.className} id="about">
         <Navbar />
         <div className="px-[5%]">{children}</div>
