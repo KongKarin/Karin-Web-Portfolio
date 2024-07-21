@@ -53,7 +53,7 @@ export default function MyPort() {
               href="https://drive.google.com/file/d/1cbIhxBKdEXml-56A4s1be8G_LAIaP7zk/view?usp=drive_link"
               target="_blank"
             >
-              <button className="bg-white text-base-bg my-3 py-3 px-6 w-36 font-light text-base lg:text-xl rounded-md">
+              <button className="bg-white text-base-bg w-36 h-10 font-light text-base lg:text-xl rounded-md">
                 Resume
               </button>
             </a>
@@ -166,6 +166,8 @@ export default function MyPort() {
             src={myImgage}
             alt="my-image"
             className="w-4/5 mx-auto grayscale hover:grayscale-0 rounded-md "
+            loading="eager"
+            priority
           />
         </div>
       </div>
@@ -180,10 +182,11 @@ export default function MyPort() {
               alt="The-Beyond-Estates"
               className="w-full h-[400px] object-cover object-right-top"
               draggable={false}
+              loading="lazy"
             />
             <div className="absolute inset-x-0 bottom-0 bg-base-bg overflow-hidden w-full h-0 transform ease-in-out duration-500 flex justify-start group-hover:h-1/2">
               <div className="whitespace-nowrap absolute overflow-hidden top-1/2 left-1/2  translate-x-[-50%] translate-y-[-50%] flex flex-col items-start ">
-                <h4 className="m-0">The ProperMu</h4>
+                <h3 className="m-0">The ProperMu</h3>
                 <p className=" font-extralight text-sm m-[0.5]">
                   Real Estates Marketplace Web Application <br />( React-Next.JS
                   (TypeScript) , Tailwind CSS)
@@ -204,10 +207,11 @@ export default function MyPort() {
               alt="The-Beyond-Estates"
               className="w-full h-[400px] object-cover object-right-top"
               draggable={false}
+              loading="lazy"
             />
             <div className="absolute inset-x-0 bottom-0 bg-base-bg overflow-hidden w-full h-0 transform ease-in-out duration-500 flex justify-start group-hover:h-1/2">
               <div className="whitespace-nowrap absolute overflow-hidden top-1/2 left-1/2  translate-x-[-50%] translate-y-[-50%] flex flex-col items-start ">
-                <h4 className="m-0">The Beyond Estates</h4>
+                <h3 className="m-0">The Beyond Estates</h3>
                 <p className=" font-extralight text-sm m-[0.5]">
                   The Company Website - Improving ( wordpress )
                 </p>
@@ -226,11 +230,12 @@ export default function MyPort() {
               src={exergram}
               alt="Exergram"
               className="w-full h-[400px] object-cover object-right-top"
+              loading="lazy"
               draggable={false}
             />
             <div className="absolute inset-x-0 bottom-0 bg-base-bg overflow-hidden w-full h-0 transform ease-in-out duration-500 flex justify-start group-hover:h-1/2">
               <div className="whitespace-nowrap absolute overflow-hidden top-1/2 left-1/2  translate-x-[-50%] translate-y-[-50%] flex flex-col items-start ">
-                <h4 className="m-0">EXERGRAM</h4>
+                <h3 className="m-0">EXERGRAM</h3>
                 <p className=" font-extralight text-sm m-[0.5]">
                   Exercise Tracking Web Application (React, Express, NodeJS,
                   MongoDB)
@@ -269,6 +274,7 @@ export default function MyPort() {
               alt="The Beyond Estates Co. Ltd."
               className="w-full lg:w-1/2 bg-white rounded-md"
               draggable={false}
+              loading="lazy"
             />
           </div>
           <div className="w-full lg:w-2/3 ">
@@ -305,6 +311,7 @@ export default function MyPort() {
               src={IBSC}
               alt="International Buddhist Studies College"
               draggable={false}
+              loading="lazy"
             />
           </div>
           <div className="w-full lg:w-2/3">
@@ -343,6 +350,7 @@ export default function MyPort() {
               src={Generation}
               alt="generation Thailand"
               draggable={false}
+              loading="lazy"
             />
           </div>
           <div className="w-full lg:w-2/3">
@@ -372,6 +380,7 @@ export default function MyPort() {
               src={MCU}
               alt="Mahachulalomgkornrajavidayalaya University"
               draggable={false}
+              loading="lazy"
             />
           </div>
           <div className="w-full lg:w-2/3">
@@ -411,6 +420,7 @@ export default function MyPort() {
               alt="resume"
               className="w-[32px]"
               draggable={false}
+              loading="lazy"
             />
           </Link>
           <Link
@@ -423,19 +433,20 @@ export default function MyPort() {
               alt="email"
               className="w-[40px]"
               draggable={false}
+              loading="lazy"
             />
           </Link>
           <Link
             href="https://www.linkedin.com/in/karin-naprang"
             target="_blank"
             className="max-w-40"
-            draggable={false}
           >
             <Image
               src={linkedin}
               alt="linkedin"
               className="w-[40px]"
               draggable={false}
+              loading="lazy"
             />
           </Link>
           <Link
@@ -448,6 +459,7 @@ export default function MyPort() {
               alt="github"
               className="w-[40px]"
               draggable={false}
+              loading="lazy"
             />
           </Link>
         </div>
