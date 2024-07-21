@@ -51,7 +51,7 @@ export default function MyPort() {
           <div className="flex items-center gap-8">
             <button className="bg-white text-base-bg my-3 py-3 px-6 w-36 font-light text-base lg:text-xl rounded-md">
               <a
-                href="https://drive.google.com/file/d/1Kfwv4DYZ34osaAA0qf4eCCV2v5nyWHG5/view?usp=sharing"
+                href="https://drive.google.com/file/d/1cbIhxBKdEXml-56A4s1be8G_LAIaP7zk/view?usp=drive_link"
                 target="_blank"
               >
                 Resume
@@ -328,7 +328,7 @@ export default function MyPort() {
         <h2 className="font-bold text-2xl">Contact</h2>
         <div className="flex justify-around gap-x-6 mb-10">
           <Link
-            href="https://drive.google.com/file/d/1Kfwv4DYZ34osaAA0qf4eCCV2v5nyWHG5/view?usp=sharing"
+            href="https://drive.google.com/file/d/1cbIhxBKdEXml-56A4s1be8G_LAIaP7zk/view?usp=drive_link"
             target="_blank"
             className="max-w-40"
           >
