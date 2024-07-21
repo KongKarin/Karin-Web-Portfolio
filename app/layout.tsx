@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   //   canonical: `/`,
   // },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
   },
 };
 
@@ -27,6 +27,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      {/* <head>
+        <meta
+          property="og:image"
+          content="https://karin-web-portfolio.vercel.app/api/og"
+        />
+      </head> */}
       <body className={poppins.className} id="about">
         <Navbar />
         <div className="px-[5%]">{children}</div>
