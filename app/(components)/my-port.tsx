@@ -286,21 +286,23 @@ export default function MyPort() {
             </h4>
             <ul className="list-disc indent-2 pl-10 font-light leading-relaxed">
               <li>
-                Monitored student information systems and services for the
-                district.
+                Initiated and develop responsive user interfaces using Next.js,
+                TypeScript, and Tailwind CSS.
               </li>
               <li>
-                Administered statistical records for enrollment procedures.
+                Collaborate with back-end developers to integrate APIs and
+                services.
               </li>
-              <li>Collected and evaluated registration forms.</li>
               <li>
-                Collaborated with coordinators and departments for information
-                exchange.
+                Implement SEO best practices to enhance website visibility.
               </li>
-              <li>Ensured accurate student records and smooth operations.</li>
-              <li>Managed enrollment process and provided timely reports.</li>
               <li>
-                Maintained confidentiality and compliance with regulations.
+                Debug and deploy front-end code to UAT and Production
+                environments.
+              </li>
+              <li>
+                Ensure consistent user experience across various devices and
+                browsers.
               </li>
             </ul>
           </div>
